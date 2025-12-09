@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FASTNET WIFI - Internet Cepat & Stabil</title>
+    <title>SYSTEM NET - Internet Cepat & Stabil</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
@@ -32,7 +32,7 @@
             color:white;
             background:
                 linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.65)),
-                url('https://images.unsplash.com/photo-1581093588401-22a6ae3b6af5') center/cover;
+                url('https://static.republika.co.id/uploads/images/inpicture_slide/keluarga-bermain-internet-ilustrasi-_130611002059-393.jpg') center/cover;
         }
         .hero h2 { font-size:45px; font-weight:700; }
         .hero p { max-width:600px; margin:12px auto; font-size:18px; }
@@ -47,13 +47,18 @@
         .title { text-align:center; color:#007bff; font-size:32px; margin-bottom:20px; }
         .desc { text-align:center; max-width:700px; margin:auto; color:#555; }
 
-        /* GALERI */
+       /* GALERI */
         .galeri { display:flex; gap:20px; justify-content:center; flex-wrap:wrap; margin-top:30px; }
         .galeri img {
             width:30%; min-width:270px; border-radius:12px;
             box-shadow:0 4px 15px rgba(0,0,0,0.2);
         }
-
+         /* PKL */
+        .pkl { display:flex; gap:20px; justify-content:center; flex-wrap:wrap; margin-top:30px; }
+        .pkl img {
+            width:30%; min-width:270px; border-radius:12px;
+            box-shadow:0 4px 15px rgba(0,0,0,0.2);
+        }
         /* ORDER FORM */
         form {
             background:white; width:70%; margin:40px auto; padding:30px;
@@ -86,7 +91,7 @@
 
 <!-- NAVBAR -->
 <nav>
-    <h1>FASTNET WIFI</h1>
+    <h1>SYSTEM NET</h1>
     <div>
         <a href="#tentang">Tentang</a>
         <a href="#galeri">Galeri</a>
@@ -99,7 +104,7 @@
 <div class="hero">
     <div>
         <h2>Internet Super Cepat Untuk Semua Kebutuhan</h2>
-        <p>Kami menyediakan layanan internet (WiFi) stabil berbasis fiber optik dengan harga terjangkau dan teknisi profesional.</p>
+        <p>Kami menyediakan layanan internet (WiFi) stabil dan jasa pemasangan cctv</p>
         <button onclick="window.location='#order'">Pesan Sekarang</button>
     </div>
 </div>
@@ -108,7 +113,7 @@
 <section id="tentang">
     <h3 class="title">Tentang Kami</h3>
     <p class="desc">
-        FASTNET WIFI adalah perusahaan penyedia layanan internet rumah & bisnis. 
+        SYSTEM NET adalah perusahaan penyedia layanan internet rumah & bisnis. 
         Kami menawarkan kecepatan tinggi, layanan stabil, dan dukungan teknisi 24 jam.
     </p>
 </section>
@@ -124,6 +129,16 @@
     </div>
 </section>
 
+    <!-- SISWA PKL -->
+<section id="pkl">
+    <h3 class="title">Dokumentasi Siswa PKL</h3>
+
+    <div class="pkl">
+        <img src="https://via.placeholder.com/400x250?text=Pemasangan+1">
+        <img src="https://via.placeholder.com/400x250?text=Pemasangan+2">
+        <img src="https://via.placeholder.com/400x250?text=Pemasangan+3">
+    </div>
+</section>
 <!-- ORDER FORM -->
 <section id="order">
     <h3 class="title">Order Online</h3>
@@ -133,9 +148,8 @@
         <textarea id="alamat" placeholder="Alamat Lengkap" required></textarea>
 
         <select id="paket">
-            <option value="20 Mbps - Rp 150.000">Paket 20 Mbps - Rp 150.000</option>
-            <option value="50 Mbps - Rp 200.000">Paket 50 Mbps - Rp 200.000</option>
-            <option value="100 Mbps - Rp 300.000">Paket 100 Mbps - Rp 300.000</option>
+            <option value="5 Mbps - Rp 150.000">Paket 20 Mbps - Rp 150.000</option>
+            <option value="10 Mbps - Rp 200.000">Paket 50 Mbps - Rp 250.000</option>
         </select>
 
         <input type="text" id="wa" placeholder="Nomor WhatsApp" required>
@@ -157,13 +171,13 @@
             style="border:0" 
             loading="lazy"
             allowfullscreen 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.9765095413703!2d112.619122!3d-7.128514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e3a7c44817eb%3A0x4d3aa025f1c0df1!2sIndonesia!5e0!3m2!1sen!2sid!4v1705600000000">
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.1434244510788!2d110.76527897476463!3d-7.667725592348928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a3fe5f9df7299%3A0xfa2e352ead92f5b5!2sSYSTEM%20NET!5e0!3m2!1sid!2sid!4v1765260180382!5m2!1sid!2sid">
         </iframe>
     </div>
 </section>
 
 <footer>
-    FASTNET WIFI © 2025 - All Rights Reserved
+    SYSTEM NET © 2025 - SISWA PKL SMK NEGERI 1 KAALIWUNGU
 </footer>
 
 <script>
@@ -179,17 +193,17 @@ function kirimOrder() {
     }
 
     const pesan = 
-`ORDER BARU FASTNET WIFI
+`ORDER BARU SYSTEM NET
 -----------------------
 Nama: ${nama}
 Alamat: ${alamat}
 Paket: ${paket}
 Nomor WA: ${wa}`;
 
-    const nomorAdmin = "6281234567890"; // GANTI dengan nomor WhatsApp Admin
+    const nomorAdmin = "6281328444021"; // GANTI dengan nomor WhatsApp Admin
     const urlWa = `https://wa.me/${nomorAdmin}?text=${encodeURIComponent(pesan)}`;
 
-    const emailAdmin = "admin@fastnetwifi.com"; // GANTI email admin
+    const emailAdmin = "-"; // GANTI email admin
     const mailto = `mailto:${emailAdmin}?subject=Order Baru&body=${encodeURIComponent(pesan)}`;
 
     const pilihan = confirm("Kirim via WhatsApp?\nPilih CANCEL untuk kirim Email.");
@@ -204,3 +218,4 @@ Nomor WA: ${wa}`;
 
 </body>
 </html>
+
